@@ -1,0 +1,23 @@
+Why Auth important ? 
+1. Ensure Security
+2. Control Access
+3. Monitor Usages
+4. Apply Rate Limit
+
+Type of Authentication: 
+1. http basic authentication (here talking between client and server using the Base64 code but other credentials are visible.)
+2. API Key Authentication (here a unique api key send with each response but problem here is limited control over who access the api key)
+3. JWI(JSON Web Token): It is a compact stateless mechanism for API Authentication. As user login a an api key created it will send over each and every request/response through which server deserializes and validate. This api key store the user logic data and this make it stateless.
+4. Oauth: 
+
+
+Difference between Authentication and Authorization.
+Authentication - who are you ? , verifies the identity
+Authorization - What are you allowed to do ? , determines the access.
+
+JWT(JSON Web Token)
+What the problem with Session Tokens ? 
+Assume we login with browser in a website and it send a session token, in my next response this token will forward as well and server easily defferentiate the user not first time. But same user with mobile on same server can not have access. This create the problem here JWT comes and solve the problem.
+
+JWT works like we have to only verified once. As we verified we can use any of api of thet server any number of times. 
+It is a compact stateless(No session storage needed.) mechanism for API Authentication. As user login a an api key created it will send over each and every request/response through which server deserializes and validate. This api key store the user logic data and this make it stateless.
