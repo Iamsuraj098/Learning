@@ -1,3 +1,11 @@
+**JSX (JavaScript XML)** is a **syntax extension for JavaScript** that allows you to write **HTML-like code** inside JavaScript files.
+
+It makes UI code easier to read and write, but it is **not actual HTML** — before running in the browser, JSX is **transpiled (converted)** by tools like **Babel** into regular JavaScript calls such as `React.createElement()`.
+
+In short:
+
+> JSX is a developer-friendly way to describe UI structure in React using HTML-like syntax inside JavaScript.
+---
 ### 1. **What You See in React Code**
 
 You often write code like this:
@@ -84,3 +92,10 @@ It only receives:
 > React then uses that tree to create or update the **Real DOM** efficiently.
 
 ---
+Why does React use different attribute names like className and camelCase style properties instead of regular HTML or CSS syntax?
+```
+In React, certain HTML attributes like `class` use different names 
+(e.g., `className`) because JSX is converted into JavaScript, where some 
+keywords or syntax could cause conflicts. JSX also follows JavaScript conventions, 
+such as using camelCase for style properties.
+```
