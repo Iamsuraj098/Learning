@@ -1,0 +1,4 @@
+Git Rebase
+Here we overwrite the history
+Git Merge
+Combine the changes from one branch into another branch
