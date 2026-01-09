@@ -1,0 +1,43 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\sp735> wsl --shutdown
+PS C:\Users\sp735> wsl
+suraj@SurajAltysys:/mnt/c/Users/sp735$ docker system prune
+WARNING! This will remove:
+  - all stopped containers
+  - all networks not used by at least one container
+  - all dangling images
+  - unused build cache
+
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+5e3b9b4de697d929eb7e1c9d9ae68c3e5f5355de46717f4174fa96b9c7fe416a
+77814a28250dc6c11b11d374576599f2753f3e08e83e97d8e991b10a3997ef89
+30f4d1db82fe498a4e558942e6d92430c75aabcd917a5fa6d3a0a0909cdca8c2
+a435ae9632fd4559a5bf0f4c004b60223bf6b6ec0a62f73717c526a6e78e4bbe
+997ce33a893e9f350fc0dca61357d5e35fdb19add6ed6953a7736f4e3f4c027e
+6e7f3a1de7cf7bd180db7bff7abbf993c81b7fdbc34d5a9f50edbb0055fbd0a4
+52730d09ec49b103b31b273549cf5cd1cd3b4689aea566cb4e2e0f6a78a564ab
+93593ad024e86f4afb91415d3aa82fa7193a865fa998af6748cefe46457ef4f4
+82e3cacc4290f460924055ba0bcea3872113cb3818e90bf9f500d0b71f89fbe5
+8ea80cdf4822bd37aab40815e5e7bb30e13096b058408a749735ed95403d5722
+1c10541d7ebfcbf92688a8a045d7c72e028213adeffbab5828958eda7d8f7f2d
+2f4c554e8fd56e8033140fcbb303cca9da6b1cbb7b4ab3ba004d6112ef74015d
+67d6492cb4c5e40cf807f1ff9805fb3d09e934568474cae20d7e69c04ed07c22
+d28e6d158519a019ef44cf4933af4e231ecfd3dc3f03e5d1c530673e62b6fd7f
+039c9a9f224af461c23f567b9d163a4e0d84852e535a14db394604308ff29ae5
+48887c3701e2b2b450cabaf0fe9be63d3bff70bfcc1c20f68c2c6c84061cfd18
+abb7d2aba4fc94d74b203dfdc327827dc90ea8ee5cbb0055edfe9f29f1b11a4e
+20baa1c84fdd93c9da3851b1dfdd3204794f33e6d5773cc55a473d5d03cc711c
+cd68d5eefa1d004893fd465eacbe3b8e20b27db804fa43f1605ee8845103b44c
+
+Total reclaimed space: 450.6kB
+suraj@SurajAltysys:/mnt/c/Users/sp735$ bash standalone_embed.sh start
+[sudo] password for suraj:
+Wait for Milvus Starting...
+Start successfully.
+To change the default Milvus configuration, add your settings to the user.yaml file and then restart the service.
+suraj@SurajAltysys:/mnt/c/Users/sp735$
