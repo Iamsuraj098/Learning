@@ -84,6 +84,57 @@ Flow -
 
 ---
 
+#### Basic Command to run the Django
+1. Create the env
+```
+python -m venv venv
+venv\Scripts\activate
+```
+2. Install Django
+```
+pip install django
+```
+3. Create a Django Project
+```
+django-admin startproject myproject
+cd myproject
+```
+4. Run Django Development Server
+
+```
+python manage.py runserver
+go to - http://127.0.0.1:8000/
+Run on differnet port - python manage.py runserver 8001
+```
+5. Create a Django App
+```
+python manage.py startapp myapp
+```
+6. Make and Apply Migrations
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+7. Create Super User
+```
+python manage.py createsuperuser
+```
+
+##### Extra: 
+- Note: Most Asked Interview Commands (Quick List)
+```
+django-admin startproject projectname
+python manage.py startapp appname
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+```
+
+- “To run Django, we use python manage.py runserver, which starts the development server on port 8000 by default.”
+
+---
+
 Creating admin login code -
 (venv) PS C:\Users\sp735\Desktop\New folder\python\Django\Learning\Todo> python manage.py createsuperuser
 Username (leave blank to use 'sp735'): djangodmin
@@ -91,3 +142,4 @@ Email address: suraj.prajapati@altysys.com
 Password: 
 Password (again): 
 Superuser created successfully.
+
