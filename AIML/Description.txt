@@ -1,0 +1,37 @@
+I am Suraj Prajapati and currently I working as Associate software developer at Altysys Private Limited. I have hands-on experience working on projects such as Chronic Care Management systems and HR applications, where I was involved in developing, enhancing, and maintaining scalable software solutions.
+
+Although I am fresh to the AML domain, I have a strong interest in this field because it combines technology, data analysis, and regulatory compliance. I am currently learning AML concepts such as transaction monitoring, customer risk assessment, and compliance processes, and I am confident that my technical background will help me quickly adapt to AML systems and tools.
+
+
+OFAC - office of foreign assets control
+BSA - Bank Secret Act
+
+Five Pillar of AML
+
+Internal Control 
+Designation of a compliance officer
+Ongoing Employee Training
+Independent testing
+Customer Due diligence
+
+UBO - Ultimate Beneficiary Owner - At the end of day who get benefit. 
+PEPs - Politically Exposed Persons
+
+Types of CDD
+- Simplified Customer Due Diligence
+- Normal CDD
+- Enhanced CDD
+
+Key Elements of KYC
+- Identification
+- Customer Due Diligence
+- Enhanced Due Diligence
+- Ongoing KYC
+
+FATF - Financial Action Task Force - Create global laws and grey list and black list.
+STR - Suspicious Transaction Report
+
+Risk Classification of the customers
+- Low 
+- Medium
+- High
