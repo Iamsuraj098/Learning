@@ -1,0 +1,22 @@
+{
+    "name": "AI Knowledge Base Chatbot",
+    "version": "1.0.0",
+    "description": "A chatbot powered by PDF knowledge base with STT/TTS capabilities",
+    "main": "app.py",
+    "scripts": {
+        "start": "python app.py",
+        "dev": "python app.py"
+    },
+    "keywords": [
+        "chatbot",
+        "AI",
+        "PDF",
+        "STT",
+        "TTS",
+        "RAG",
+        "embeddings",
+        "NLP"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+}
