@@ -1,0 +1,18 @@
+### Variables 
+- We not defines the datatype of variable
+- Python automaticaly decide the datatypes of variable at runtime.
+- What exactly happens during creating the variables ?
+  - ```x = 10```
+  - Here `10` is an `Object`
+  - `x` is just pointing the `object`
+- Internal process how python identified the datatype of object:
+  - Python reads 10
+  - Interpreter recognizes it as an integer literal
+  - Calls PyLong_FromLong(10)
+  - A new integer object is allocated
+  - Its ob_type is set to the global int type object
+  - x now references this object
+- During execution, Python’s interpreter (CPython) maps these directly to specific object-creation routines:
+  - 10 → PyLongObject
+  - "abc" → PyUnicodeObject
+  - [1,2,3] → PyListObject
