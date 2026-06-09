@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
 </head>
+
 <body>
-    
+    <div class="parent">
+
+        <div class="section2">
+
+        </div>
+        <div class="section1">
+            <span class="power"></span>
+        </div>
+    </div>
+
+    <style>
+        body {
+            width: 100vw;
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            align-content: space-around;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            height: 100vh;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .parent {
+            display: flex;
+            width: 20%;
+            height: 20%;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .section1 {
+            width: 50%;
+            height: 50%;
+            border-top: 10px solid black;
+            border-left: 5px solid black;
+            border-right: 5px solid black;
+            border-radius: 50% 50% 50% 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .section1:hover {
+            /* background-color: #e0e0e0; */
+            transition: 1s ease-out;
+            border-radius: 50% 50% 50% 0%;
+        }
+
+        .power {
+            border: 10px solid black;
+            border-radius: 50%;
+        }
+
+        .section2 {
+            background-color: transparent;
+            padding: 1%;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section2:hover {
+            background-color: black;
+            padding: 1%;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 2s ease-in;
+        }
+    </style>
+
+    <script>
+        var move = document.getElementsByClassName("power")
+        
+        
+    </script>
 </body>
+
 </html>

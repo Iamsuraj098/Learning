@@ -7,4 +7,4 @@ Algo -
 
 Time Complexity - `O(n*n)`
 
-Spare Complexity - `O(n)`
+Space Complexity - `O(n)`
