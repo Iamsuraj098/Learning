@@ -20,11 +20,11 @@ Characteristics:
 
 ##### How They Work Together
 ```
-	     Internet
+	 Internet
 		|
 	Public IP: 203.0.113.45
 		|
-	      Router
+	    Router
 		|
 	-----------------------
 	|          |          |
