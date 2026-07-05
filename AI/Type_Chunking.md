@@ -124,6 +124,13 @@ Paragraph 3 → Chunk 3
 ## 5. Recursive Chunking
 
 Attempts to split text hierarchically.
+Recursive Chunking is a text-splitting technique commonly used in RAG (Retrieval-Augmented Generation) systems. Instead of splitting text at a fixed number of characters, it recursively tries different separators to preserve semantic meaning while keeping chunks within a desired size.
+
+Recursive chunking attempts to:
+- Keep related content together.
+- Preserve document structure.
+- Avoid breaking sentences unnecessarily.
+- Create chunks close to the target size.
 
 ### Process
 

@@ -1,6 +1,6 @@
 ## DCHP
 Dynamic Host Configuration Protocol
-
+	
 - It automatically assign the IP address and other network settings to devices when they connect to a network.
 - without DHCP: We have to manually configured everything - 
 	- IP address
